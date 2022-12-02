@@ -21,7 +21,7 @@ message.member.voiceChannel.join()
 
 } else { 
 
-message.reply('** پێویستە تۆ لە ڤۆیسەکە بیت **'); 
+message.reply('**  **'); 
 
 } 
 
@@ -36,10 +36,10 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` دانرا تۆش ڕیکلامەکە بکە lera Link Dane`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` دانرا تۆش ڕیکلام داني https://discord.gg/E9TudBycWR `) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("id Channel ").send(
-`> By: <@${message.author.id}> ✅ 
+  client.channels.get("1047609846477885522").send(
+`> By: <@${message.authorize}
 ${message.content}`)
 }
     }
@@ -57,4 +57,4 @@ client.user.setGame(`RaMa is here`)
 
 
 
-client.login("");// Token Lera Dane
+client.login("");// MTA0ODE1OTY4Nzg2Mzk3NTk5Nw.GhcycQ.7vHFWPoDsCaDAOVzkc2TsmtrkG3fM0rqT-wewk
